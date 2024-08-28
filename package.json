@@ -20,13 +20,17 @@
   ],
   "scripts": {
     "build": "npm run build:ts && npm run build:components",
-    "build:components": "componentsjs-generator -s src -c dist/components -i .componentsignore",
+    "build:components": "componentsjs-generator -s src -c dist/components -i .componentsignore -r glf",
     "build:ts": "tsc",
     "lint": "npm run lint:eslint && npm run lint:markdown",
     "lint:eslint": "eslint . --cache --max-warnings 0",
     "lint:markdown": "markdownlint-cli2",
     "release": "commit-and-tag-version",
     "test": "jest"
+  },
+  "dependencies": {
+    "winston": "^3.14.2",
+    "winston-transport": "^4.7.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
