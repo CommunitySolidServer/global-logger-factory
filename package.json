@@ -2,6 +2,7 @@
   "name": "global-logger-factory",
   "version": "0.0.1",
   "license": "MIT",
+  "repository": "git@github.com:CommunitySolidServer/global-logger-factory.git",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "lsd:module": "https://linkedsoftwaredependencies.org/bundles/npm/global-logger-factory",
