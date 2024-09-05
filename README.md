@@ -1,5 +1,7 @@
 # Global logger factory
 
+[![npm version](https://badge.fury.io/js/global-logger-factory.svg)](https://www.npmjs.com/package/global-logger-factory)
+
 Provides utility functions to easily set up logging.
 Due to the nature of this library,
 any configuration changes you make have an effect on any library that makes use of it.
